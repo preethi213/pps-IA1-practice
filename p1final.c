@@ -18,11 +18,11 @@ void output(int a,int b,int sum)
 }
 int main()
 {
-  int num1,num2;
-  num1=input();
-  num2=input();
+  int n1,n2;
+  n1=input();
+  n2=input();
   int sum;
-  sum=add(num1,num2);
-  output(num1,num2,sum);
+  sum=add(n1,n2);
+  output(n1,n2,sum);
   return 0;
 }

@@ -23,9 +23,9 @@ void input( int *a,int *b,int *c)
 }
 int main()
 {
-  int x,y,z,large;
-  input(&x,&y,&z);
-  cmp(x,y,z,&large);
+  int p,s,d,large;
+  input(&p,&s,&d);
+  cmp(p,s,d,&large);
   printf ("%d is the largest  of them all\n",large);
   return 0;
 }
